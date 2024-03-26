@@ -51,7 +51,7 @@ function Posts({ selectedCategory }) {
                   <button className="text-orange-400 bg-orange-100 rounded-full w-40 h-10 text-sm font-semibold uppercase"><span>{post.categories}</span></button>
                   <span className="text-gray-500 text-sm">{post.date}</span>
                 </div>
-                <h3 className="mt-4 text-lg font-semibold tracking-tighter text-gray-900">{post.title}</h3>
+                <h3 className="mt-4 text-lg font-semibold text-gray-900">{post.title}</h3>
                 <div className="mt-4 flex items-center">
                   <img className="h-10 w-10 object-cover rounded-full mr-3" src={post.authorImage} alt={post.author} />
                   <div>
