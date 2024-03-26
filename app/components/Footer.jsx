@@ -7,7 +7,6 @@ function Footer() {
     <footer className="bg-[#F6F1E7] text-gray-800">
       <div className="container mx-auto py-10 px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 justify-items-center lg:justify-items-start">
-          {/* Logo and Stay Updated Section */}
           <div className="flex flex-col items-center lg:items-start space-y-4">
             <img src="/real-logo.png" alt="Onco Connect Logo" className="h-16" />
             <button className="text-black w-60 bg-[#E99675] hover:bg-[#de8563] rounded-full px-6 py-2 flex items-center space-x-2">
@@ -16,7 +15,6 @@ function Footer() {
             </button>
           </div>
 
-          {/* Links */}
           <div className="flex flex-wrap justify-center lg:justify-start gap-4">
             <ul className="space-y-1">
             <li>Solutions</li>
@@ -32,7 +30,6 @@ function Footer() {
             </ul>
           </div>
 
-          {/* Social and Contact Info */}
           <div className="flex flex-col items-center lg:items-end space-y-4">
             {/* Contact and Location */}
             <div className='flex flex-col'>
@@ -56,12 +53,10 @@ function Footer() {
           </div>
         </div>
 
-        {/* Book a Demo Button */}
         <div className="flex justify-center mt-6 lg:mt-10">
           <button className="bg-black text-white font-semibold px-6 py-2 rounded-lg">Book A Demo</button>
         </div>
 
-        {/* Copyright */}
         <div className="text-center mt-6 lg:mt-10 text-sm">
           <p>Copyright © 2024 onco-connect.com. All rights reserved.</p>
         </div>
