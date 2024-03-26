@@ -14,6 +14,8 @@ function DigitalLibrary() {
     const [selectedCategory, setSelectedCategory] = useState('ALL');
   return (
     <div className='text-black'>
+      <h1 className='text-center mb-20 font-semibold text-4xl'>Onco-Connect Digital Health Library
+</h1>
         <div className='flex justify-around flex-wrap mt-8'>
           {libraryCategories.map((category, index) => (
             <button
